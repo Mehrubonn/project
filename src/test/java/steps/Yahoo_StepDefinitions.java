@@ -11,19 +11,23 @@ import utilities.Driver;
 
 public class Yahoo_StepDefinitions {
     YahooPage yahooPage = new YahooPage();
-    @Given("user is on the Bing search page")
-    public void user_is_on_the_bing_search_page() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("yahooUrl"));
+    @Given("user is on the Yahoo search page")
+    public void user_is_on_the_yahoo_search_page() {
+        yahooPage.launchHomePage();
     }
 
-    @When("user searches for the term on Bing")
-    public void userSearchesForOnBing() {
-        yahooPage.searchBox.sendKeys(ConfigurationReader.getProperty("term")+ Keys.ENTER);
+    @When("user searches for the {string} on Yahoo")
+    public void user_searches_for_the_on_yahoo(String term) {
+        yahooPage.searchBox.sendKeys(term+Keys.ENTER);
         BrowserUtils.waitForVisibilityOf(yahooPage.firstResult);
     }
+    @When("user sees the {string} on the title")
+    public void user_sees_the_on_the_title(String term) {
+        BrowserUtils.verifyTitleContains(term);
+    }
 
-    @And("user clicks the first returned item on Bing")
-    public void userClicksTheFirstReturnedItemOnBing() {
+    @And("user clicks the first returned item on Yahoo")
+    public void userClicksTheFirstReturnedItemOnYahoo() {
         yahooPage.firstResult.click();
     }
 }
