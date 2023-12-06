@@ -1,7 +1,7 @@
   Feature: Yahoo search functionality
   Agile story: As a user, when I am on the Yahoo search page
   I should be able to search anything and see relevant results
-@wip
+
   Scenario Outline: Yahoo search result verification
     Given user is on the Yahoo search page
     When user searches for the "<term>" on Yahoo

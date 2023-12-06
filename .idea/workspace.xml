@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422b9c1a-2004-4547-8ef3-2a1117f21a71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FailedRunner.java" afterDir="false" />
+    <list default="true" id="422b9c1a-2004-4547-8ef3-2a1117f21a71" name="Changes" comment="some changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/YahooPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/YahooPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Google_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Google_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Yahoo_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Yahoo_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/GoogleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GoogleSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/YahooSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YahooSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/GoogleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/GoogleSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/YahooSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/YahooSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/YahooPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/YahooPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Google_StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Google_StepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Yahoo_StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Yahoo_StepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,11 +108,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701881926991</updated>
-      <workItem from="1701881928278" duration="17341000" />
+      <workItem from="1701881928278" duration="19625000" />
     </task>
+    <task id="LOCAL-00001" summary="some changes">
+      <created>1701901435090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701901435090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
 </project>
